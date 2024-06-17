@@ -5,7 +5,7 @@ from torchvision import transforms
 from PIL import Image
 
 
-class SeismicSet(Dataset):
+class Dataset(Dataset):
     def __init__(self, img_path, sigma, transforms=None):
         self.img_path = img_path
         self.transforms = transforms

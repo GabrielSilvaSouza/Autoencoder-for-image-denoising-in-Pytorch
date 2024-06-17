@@ -1,6 +1,6 @@
 from torch.utils.data import DataLoader
 from torchvision import transforms
-from datacustom import SeismicSet
+from datacustom import Sataset
 from autoencoder import Autoencoder
 from train import training
 
@@ -13,7 +13,7 @@ sigma = 0.1
 img_path = 'c:\\example'         
 
 
-dataset = SeismicSet(
+dataset = Dataset(
         img_path=img_path, sigma=sigma, transforms=transforms.Compose([
             transforms.Resize((256, 256)),
             transforms.ToTensor()
