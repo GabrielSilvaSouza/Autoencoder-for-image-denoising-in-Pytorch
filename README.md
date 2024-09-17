@@ -11,7 +11,7 @@ This projecrt implements an **Autoencoder** for image denoising by using **Pytor
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Licença](#licença)
+
 
 ## Introduction
 
