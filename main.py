@@ -1,6 +1,6 @@
 from torch.utils.data import DataLoader
 from torchvision import transforms
-from datacustom import Sataset
+from datacustom import Dataset
 from autoencoder import Autoencoder
 from train import training
 
@@ -10,7 +10,7 @@ num_epochs = 20
 learning_rate = 0.001
 batch_size = 16
 sigma = 0.1
-img_path = 'c:\\example'         
+img_path = '/home/mint/Downloads/img/img2'         
 
 
 dataset = Dataset(
